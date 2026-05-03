@@ -1,0 +1,9 @@
+/target/
+dct-core/target/
+/.venv/
+.venv/
+
+# Rust / PyO3 对齐产物（由 install.py/maturin 本地生成）
+*.pyd
+*.so
+*.dll
